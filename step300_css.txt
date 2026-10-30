@@ -1,0 +1,122 @@
+.slide-text {
+  font-size: 0.78rem;
+  color: var(--text-lavender);
+  line-height: 1.5;
+  border-left: 3px solid var(--neon-cyan);
+  padding-left: 12px;
+}
+
+/* Feature 7: AI Target-Setting Triangulation */
+.target-triangulation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.target-factor-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 14px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.target-factor-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.factor-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.factor-icon {
+  font-size: 1.1rem;
+}
+
+.factor-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #E0E7FF;
+}
+
+.factor-val {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #38BDF8;
+  margin-bottom: 4px;
+}
+
+.factor-desc {
+  font-size: 0.74rem;
+  color: #94A3B8;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.action-tag {
+  font-size: 0.72rem;
+  color: #38BDF8;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* Feature 10: TAM Adjuster */
+.tam-controls-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.tam-slider-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.tam-results-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.tam-stat-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.tam-stat-lbl {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #94A3B8;
+  margin-bottom: 6px;
+}
+
+.tam-stat-val {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.tam-stat-sub {
+  display: block;
+  font-size: 0.7rem;
+  color: #A5B4FC;
+  margin-top: 4px;
+}
+
+.tam-stat-card.highlight-cyan .tam-stat-val {
+  color: #38BDF8;
+}
+
+.tam-stat-card.highlight-emerald .tam-stat-val {
+  color: #34D399;
+}
