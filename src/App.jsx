@@ -33,7 +33,7 @@ export default function App() {
           </div>
           <div className="brand-text">
             <span className="brand-name">ACube<span className="accent-text">LI</span></span>
-            <span className="brand-tag">Executive Sales Intel</span>
+            <span className="brand-tag">Sales Leadership Intelligence</span>
           </div>
         </div>
 
