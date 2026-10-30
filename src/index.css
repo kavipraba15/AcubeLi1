@@ -12,12 +12,12 @@
   --bg-sidebar: rgba(28, 22, 78, 0.82);
 
   /* Glassmorphism Tokens */
-  --glass-card: rgba(255, 255, 255, 0.08);
-  --glass-card-hover: rgba(255, 255, 255, 0.12);
-  --glass-card-active: rgba(255, 255, 255, 0.16);
-  --glass-border: rgba(255, 255, 255, 0.14);
-  --glass-border-hover: rgba(255, 255, 255, 0.28);
-  --glass-inner-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --glass-card: rgba(26, 20, 74, 0.75);
+  --glass-card-hover: rgba(32, 25, 90, 0.85);
+  --glass-card-active: rgba(38, 30, 105, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-border-hover: rgba(99, 102, 241, 0.35);
+  --glass-inner-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 
   /* Typography Colors */
   --text-white: #FFFFFF;
@@ -666,14 +666,14 @@ body {
   backdrop-filter: var(--blur-glass);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-cockpit), var(--glass-inner-highlight);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 10px 30px rgba(8, 5, 28, 0.4);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
 }
 
 .glass-panel:hover {
   background: var(--glass-card-hover);
   border-color: var(--glass-border-hover);
-  box-shadow: var(--shadow-hover), var(--glass-inner-highlight);
+  box-shadow: 0 14px 40px rgba(8, 5, 28, 0.55);
 }
 
 .p-2 { padding: 10px; }
